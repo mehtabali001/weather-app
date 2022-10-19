@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.dark-theme{
+  background-color: #111b20;
+}
+
+.light-theme{
+  background-color: #fff;
+}
+
+.main {
+  /* height: 80vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.weather-card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-header{
+  font-family: Poppins;
+  margin: 10px;
+  font-size: 22px;
+  color: #2196f3;
+  font-weight: 600;
+}
+
+.weather-card-child{
+  font-family: Poppins !important;
+  margin-top: 10px;
+}
+
+.weather-card-main{
+  width: 400px !important;
+  border-top: 2px solid red !important;
+}
+
+.forecast-card{
+  border-top: 2px solid #ffc107 !important;
+}
+
+.icon-container{
+  position: relative;
+  right: -120px;
+}
+
+.temp-desc{
+  text-transform: capitalize;
+  font-family: Poppins;
+}
+
+.header, .forecast-header{
+  font-family: Poppins !important;
+  
+}
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+
+.forecast-main-header{
+  font-family: Poppins;
+  margin: 10px;
+  font-size: 20px;
+  color: #2196f3;
+  font-weight: 600;
+  text-align: center;
+}
+
+.forecast-date{
+  font-family: Poppins !important;
+  font-size: 15px !important; 
+  margin-bottom: 20px;
+}
